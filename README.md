@@ -122,11 +122,6 @@ A análise  de cardinalidade assegura que o banco de dados é estruturado para l
 - **Tabela `sensor_field`**: 1 campo de sensor pode ter muitas medições (1:N).
 - **Tabela `measurement`**: Cada medição é única e está associada a um campo de sensor e a um período de tempo específico.
 
-
----
-
-Essa explicação cobre os principais pontos do schema, deixando claro como ele atende aos requisitos da atividade. Se precisar de mais alguma modificação ou ajuste, é só avisar!
-
 ## 📁 Estrutura de pastas
 
 Dentre os arquivos e pastas presentes na raiz do projeto, definem-se:
